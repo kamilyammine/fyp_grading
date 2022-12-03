@@ -1,0 +1,19 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: evaluation
+  datasource:
+    username: 'fypgrading'
+    url: jdbc:postgresql://localhost:5432/evaluation
+    password: 'postgres'
+    jpa:
+      properties:
+        properties:
+          hibernate:
+            dialect: org.hibernate.dialect.PostgreSQLDialect
+            format_sql: 'true'
+        hibernate:
+          ddl-auto: update
+        show-sql: 'true'

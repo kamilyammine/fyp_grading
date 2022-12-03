@@ -1,0 +1,7 @@
+com\rhallal\student\StudentRepository.class
+com\rhallal\student\StudentService.class
+com\rhallal\student\StudentController.class
+com\rhallal\student\StudentRegistrationRequest.class
+com\rhallal\student\StudentApplication.class
+com\rhallal\student\Student.class
+com\rhallal\student\Student$StudentBuilder.class

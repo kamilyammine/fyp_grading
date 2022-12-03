@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: student
+  datasource:
+    username: 'fypgrading'
+    url: jdbc:postgresql://localhost:5432/student
+    password: 'postgres'
+    jpa:
+      properties:
+        properties:
+          hibernate:
+            dialect: org.hibernate.dialect.PostgreSQLDialect
+            format_sql: 'true'
+        hibernate:
+          ddl-auto: create
+        show-sql: 'true'
