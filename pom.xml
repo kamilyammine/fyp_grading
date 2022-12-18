@@ -8,7 +8,6 @@
   <artifactId>fyp_grading</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
   <modules>
     <module>student</module>
     <module>evaluator</module>
@@ -26,6 +25,7 @@
     <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
     <spring.boot.dependecies.version>2.5.7</spring.boot.dependecies.version>
   </properties>
+  <packaging>war</packaging>
 
   <dependencyManagement>
       <dependencies>
