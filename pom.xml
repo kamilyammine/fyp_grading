@@ -25,7 +25,7 @@
     <spring.boot.maven.plugin.version>2.5.7</spring.boot.maven.plugin.version>
     <spring.boot.dependecies.version>2.5.7</spring.boot.dependecies.version>
   </properties>
-	<packaging>war</packaging>
+  <packaging>war</packaging>
 
   <dependencyManagement>
       <dependencies>
